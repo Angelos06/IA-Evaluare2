@@ -1,0 +1,121 @@
+.nume{
+    font-family: Helvetica;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+    color: #919191;
+    font-size:xx-large;
+    
+}
+.bord{
+    margin-top: 2rem;
+    background-color: #111435;
+    border-style: solid;
+    border-width: 0.5rem;
+}
+.mail{
+    font-family: Helvetica;
+    text-align: right;
+    color: #FEEE5E;
+    text-decoration: underline;
+    font-size: x-large;
+}
+body{
+    background-color: floralwhite;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.ch3{
+    font-family: Helvetica;
+    padding-left: 2rem;
+    color: purple;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+.img1{
+    border-radius: 5%;
+    display: block;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img2{
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 86rem;
+    height: 20rem;
+}
+.bord1{
+    background-color: #D3D7EB;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: purple;
+}
+.ul1{
+    font-family: Helvetica;
+    text-align: right;
+    list-style-position: inside;
+    font-size: x-large;
+    margin-right: 1rem;
+}
+table{
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 60rem;
+    height: 15rem;
+    border:  solid 0.3rem orange;
+    background-color:#C2C2C2;
+    margin-bottom: 7rem;
+
+}
+th{
+    width: 33.33%;
+    border: solid 0.3rem orange;
+}
+.th1{
+    font-family: Helvetica;
+    text-decoration: underline;
+    font-style: italic;
+    color: yellow;
+}
+.slideshow{
+    width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: black;
+}
+
+.img-slideshow {
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 75rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+  }
+  .slidebutton {
+    position: absolute;
+    z-index: -1;
+    width: 90rem;
+    font-size: 30rem;
+    top: 3rem;
+    color:tan;
+    cursor: pointer;
+
+  }
